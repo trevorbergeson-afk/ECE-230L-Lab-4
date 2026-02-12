@@ -1,5 +1,7 @@
 # Lab 04 - SOP/POS and KMaps
 
+Names: Trevor Bergeson and Alan Fong
+
 In this lab, you’ve learned how to apply KMaps, Sum Of Products and Products of
 sums to simplify digital logic equations. Then, you’ve proven out that they work
 using an implemented design on your Basys3 boards.
