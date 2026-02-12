@@ -16,12 +16,16 @@ using an implemented design on your Basys3 boards.
 ## Lab Summary
 
 Summarize your learnings from the lab here.
+We learned about implementing a naive equation, SOP equation, and POS equation in Verilog. Additionally, we learned how to load them onto a board. 
+We learned more about creating and simplifying KMaps and checking the correctness of our Verilog files via the simulation.
 
 ## Lab Questions
 
 ### Why are the groups of 1’s (or 0’s) that we select in the KMap able to go across edges?
+In a KMap, the actual shape is a torus - the edges are connected. The 2d grid is simply a representation of that shape.
 
 ### Why are the names Sum of Products and Products of Sums?
+In a SOP function, the 
 
 ### Open the test.v file – how are we able to check that the signals match using XOR?
 
