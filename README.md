@@ -25,7 +25,9 @@ We learned more about creating and simplifying KMaps and checking the correctnes
 In a KMap, the actual shape is a torus - the edges are connected. The 2d grid is simply a representation of that shape.
 
 ### Why are the names Sum of Products and Products of Sums?
-In a SOP function, the 
+A Sum of Products expression is comprised of ORed AND statements - it is the sum (OR) of a group of products (AND).
+A Product of Sums expression is comprised of ANDed OR statements - it is product (AND) of a group of sums (OR).
 
 ### Open the test.v file – how are we able to check that the signals match using XOR?
-
+In test.v, there are two conditional statements - one that compares the outputs of naive with minterm, and one that compares the outputs of naive with maxterm.
+The conditional checks to make sure that the outputs match - it will only execute if they differ (and output a corresponding error message). 
